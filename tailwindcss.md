@@ -151,6 +151,18 @@
                         width: 100%;
                 }
 
+                .flex {
+                        display: flex;
+                }
+
+                .items-center {
+                        align-items: center;
+                }
+
+                .gap-2 {
+                        gap: calc(var(--spacing) * 2) /* 0.5rem = 8px */;
+                }
+
                 .text-white {
                         color: var(--color-white) /* #fff = #ffffff */;
                 }
